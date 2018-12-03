@@ -15,4 +15,4 @@ $packageArgs = @{
 	silentArgs             = "/quiet"
 	validExitCodes         = @(0)
 }
-Install-ChocolateyInstallPackage @packageArgs
+Install-ChocolateyPackage @packageArgs
